@@ -1,1 +1,1 @@
-# predictive_QSAR_modeling
+# Repo for Predictive ADME Modeling using scikit-learn and Pytorch

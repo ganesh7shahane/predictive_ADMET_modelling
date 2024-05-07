@@ -1,1 +1,1 @@
-# This repo is for building ADME models
+# predictive_QSAR_modeling

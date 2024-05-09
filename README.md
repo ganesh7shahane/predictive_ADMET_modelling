@@ -1,1 +1,1 @@
-# Repo for Predictive ADME Modeling using scikit-learn and Pytorch
+# Repo for Predictive ADME Modeling using scikit-learn

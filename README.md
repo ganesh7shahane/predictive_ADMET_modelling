@@ -10,6 +10,8 @@
 
 ## Metabolism
 
+1. [CYP450 Inhibition Classifier](https://colab.research.google.com/drive/1OZSzuDmUcH99RfMNmbXvJcaGPIYzoq12#scrollTo=R3Eu7xPrJmfI)
+
 ## Excretion
 
 ## Miscellaneous

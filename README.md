@@ -2,7 +2,7 @@
 
 ## Absorption
 
-1. LogS Regressor
+1. [LogS Regressor](https://colab.research.google.com/drive/1QBh8UWjq3J3vqIwkjKhPvv7JCrc-gFfg#scrollTo=VUQKftBhujjx)
 
 ## Distribution
 

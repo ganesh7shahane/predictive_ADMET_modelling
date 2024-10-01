@@ -14,6 +14,8 @@
 
 ## Excretion
 
+1. [Hepatocyte Clearance Regressor](https://colab.research.google.com/drive/1Ob6suQhB_SDtfSm_LF5Lg5ALATh-RwWC#scrollTo=s3T1YhjoPwj7)
+
 ## Miscellaneous
 
 1. Quickly test all classical machine learning on [your dataset using lazypredict](https://colab.research.google.com/drive/1m1BrViuzrbmuJsqiIQGY0DfNMqz5EzY_#scrollTo=JLfNkJyA5ZYm)

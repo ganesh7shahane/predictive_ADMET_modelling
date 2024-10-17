@@ -73,7 +73,7 @@ def achirality(smiles) -> str:
         str: a SMILES string with chiral centres removed
     """
     
-    asmiles = Chem.MoLFromSmiles(smiles)
+    asmiles = Chem.MolFromSmiles(smiles)
     Chem.RemoveStereochemistry(asmiles)
     
     return Chem.MolToSmiles(asmiles)

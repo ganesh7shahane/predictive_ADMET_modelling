@@ -39,7 +39,6 @@ def remove(my_dataframe, smiles_column='smiles') -> pd.DataFrame:
     return new_df
 
 # Remove rows with smiles containing salts, multiple fragments and transition metals
-
 def contains_transition_metal(smiles) -> bool:
     """Function to check if a SMILES string contains a transition metal
 
@@ -62,6 +61,22 @@ def contains_transition_metal(smiles) -> bool:
             return True
         
     return False
+
+# Return achiral SMILES
+def achirality(smiles) -> str:
+    """Function to make SMILES achiral
+
+    Args:
+        smiles (str): input a SMILES string
+
+    Returns:
+        str: a SMILES string with chiral centres removed
+    """
+    
+    asmiles = Chem.MoLFromSmiles(smiles)
+    Chem.RemoveStereochemistry(asmiles)
+    
+    return Chem.MolToSmiles(asmiles)
 
 # Function to filter the dataframe
 def filter_smiles(dataframe, smiles_column='smiles') -> pd.DataFrame:
@@ -92,8 +107,12 @@ def filter_smiles(dataframe, smiles_column='smiles') -> pd.DataFrame:
         if contains_transition_metal(smiles):
             filtered_df = filtered_df.drop(index)
             continue
-            
-    filtered_df = filtered_df.reset_index(drop=True) # Reset the index after dropping rows
+    
+    # removed chirality
+    filtered_df['Achiral_SMILES'] = filtered_df['SMILES'].apply(achirality)
+    
+    # Reset the index after dropping rows
+    filtered_df = filtered_df.reset_index(drop=True)
         
     return filtered_df
 

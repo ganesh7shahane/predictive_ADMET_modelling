@@ -4,10 +4,12 @@
 
 1. [LogS Regressor](https://colab.research.google.com/drive/1QBh8UWjq3J3vqIwkjKhPvv7JCrc-gFfg#scrollTo=VUQKftBhujjx)
 2. [LogD Regressor](https://colab.research.google.com/drive/1-Ux0CCBoarrLzgVpSFnzV9D3lIrqCTF5#scrollTo=aE0gTiHsJcor)
+3. [PAMPA Permeability Classifier](https://colab.research.google.com/drive/1Lz_jTPyoU-qzn8QgSIpydDQpGeqypJMM#scrollTo=kc__DYWfkykP)
 
 ## Distribution
 
 1. [BBB Classifier](https://colab.research.google.com/drive/1MZek43Uahm4_RupjptlGTEBIhgirc1by#scrollTo=qLAnaDJWg-nK)
+2. [Plasma Protein Binding Regressor](https://colab.research.google.com/drive/1kRiKDTMzaWEn7b_Klag5WHn4ydBouSnh#scrollTo=xwbJqo2wdHJF)
 
 ## Metabolism
 

@@ -2,7 +2,7 @@
 
 ## Absorption
 
-1. [LogS Regressor](https://colab.research.google.com/drive/1QBh8UWjq3J3vqIwkjKhPvv7JCrc-gFfg#scrollTo=VUQKftBhujjx): LogS is a common unit used to measure the water solubility of a drug using *in vitro* assays. It is important in medicinal chemistry because it can help predict a drug's solubility and indicate its lipophilicity.
+1. [LogS Regressor](https://colab.research.google.com/drive/1QBh8UWjq3J3vqIwkjKhPvv7JCrc-gFfg#scrollTo=VUQKftBhujjx): LogS is a common unit used to measure the water solubility of a drug using *in vitro* assays. It is important in medicinal chemistry because it can help predict a drug's solubility and indicate its lipophilicity. More than 80% of the drugs on the market have a log S > -4. 
 2. [LogD Regressor](https://colab.research.google.com/drive/1-Ux0CCBoarrLzgVpSFnzV9D3lIrqCTF5#scrollTo=aE0gTiHsJcor)
 3. [PAMPA Permeability Classifier](https://colab.research.google.com/drive/1Lz_jTPyoU-qzn8QgSIpydDQpGeqypJMM#scrollTo=kc__DYWfkykP)
 
